@@ -14,7 +14,7 @@ end
 module MobileId
   class Error < StandardError; end
 
-  LOCALES = %i[en et ru].freeze
+  LOCALES = %i[en et lt ru].freeze
 end
 
 require 'mobile_id/cert'
